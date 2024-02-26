@@ -1,4 +1,5 @@
 module utc.mx.ecuacionesdiferenciales {
+    requires MaterialFX;
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;

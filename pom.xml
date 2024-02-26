@@ -95,8 +95,6 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-
-
         <dependency>
             <groupId>io.github.palexdev</groupId>
             <artifactId>materialfx</artifactId>

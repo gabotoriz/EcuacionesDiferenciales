@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="832.0"
-            prefWidth="1280.0" style="-fx-background-color: #B1DFFF;" xmlns="http://javafx.com/javafx/21">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="832.0" prefWidth="1280.0" style="-fx-background-color: #B1DFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
     <AnchorPane layoutX="14.0" layoutY="17.0" prefHeight="800.0" prefWidth="1250.0" style="-fx-border-radius: 20px; -fx-border-color: #000E18; -fx-background-color: #000E18;" AnchorPane.bottomAnchor="14.670104338266583" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.70103205655414" AnchorPane.topAnchor="17.0">
         <Label layoutX="322.0" layoutY="14.0" text="UNIVERSIDAD TRES CULTURAS" textFill="#b1dfff" AnchorPane.bottomAnchor="697.0" AnchorPane.leftAnchor="316.0" AnchorPane.rightAnchor="316.0" AnchorPane.topAnchor="43.0">
             <font>
@@ -34,27 +33,27 @@
             <padding>
                 <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
             </padding>
-            <MFXButton alignment="CENTER" buttonType="RAISED" prefHeight="50.0" prefWidth="221.0" style="-fx-background-color: #B1DFFF;" text="Teoria de ED" textFill="#000e18">
+            <MFXButton fx:id="MFXbtn_Teoria" alignment="CENTER" buttonType="RAISED" prefHeight="50.0" prefWidth="221.0" style="-fx-background-color: #B1DFFF;" text="Teoria de ED" textFill="#000e18">
                 <font>
                     <Font name="Rota-Regular" size="24.0" />
                 </font>
             </MFXButton>
-            <MFXButton alignment="CENTER" buttonType="RAISED" layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="221.0" style="-fx-background-color: #B1DFFF;" text="Ejemplos básicos" textFill="#000e18">
+            <MFXButton fx:id="MFXbtn_EJBasicos" alignment="CENTER" buttonType="RAISED" layoutX="10.0" layoutY="10.0" prefHeight="50.0" prefWidth="221.0" style="-fx-background-color: #B1DFFF;" text="Ejemplos básicos" textFill="#000e18">
                 <font>
                     <Font name="Rota-Regular" size="24.0" />
                 </font>
             </MFXButton>
-            <MFXButton alignment="CENTER" buttonType="RAISED" layoutX="10.0" layoutY="36.0" prefHeight="50.0" prefWidth="221.0" style="-fx-background-color: #B1DFFF;" text="Ejemplos avanzados" textFill="#000e18">
+            <MFXButton fx:id="MFXbtn_EjAvanzados" alignment="CENTER" buttonType="RAISED" layoutX="10.0" layoutY="36.0" prefHeight="50.0" prefWidth="221.0" style="-fx-background-color: #B1DFFF;" text="Ejemplos avanzados" textFill="#000e18">
                 <font>
                     <Font name="Rota-Regular" size="24.0" />
                 </font>
             </MFXButton>
-            <MFXButton alignment="CENTER" buttonType="RAISED" layoutX="10.0" layoutY="61.0" prefHeight="50.0" prefWidth="221.0" style="-fx-background-color: #B1DFFF;" text="Cuestionario" textFill="#000e18">
+            <MFXButton fx:id="MFXbtn_Cuestionario" alignment="CENTER" buttonType="RAISED" layoutX="10.0" layoutY="61.0" prefHeight="50.0" prefWidth="221.0" style="-fx-background-color: #B1DFFF;" text="Cuestionario" textFill="#000e18">
                 <font>
                     <Font name="Rota-Regular" size="24.0" />
                 </font>
             </MFXButton>
-            <MFXButton alignment="CENTER" buttonType="RAISED" layoutX="10.0" layoutY="87.0" prefHeight="50.0" prefWidth="221.0" style="-fx-background-color: #B1DFFF;" text="Salir" textFill="#000e18">
+            <MFXButton fx:id="MFXbtn_Salir" alignment="CENTER" buttonType="RAISED" layoutX="10.0" layoutY="87.0" prefHeight="50.0" prefWidth="221.0" style="-fx-background-color: #B1DFFF;" text="Salir" textFill="#000e18">
                 <font>
                     <Font name="Rota-Regular" size="24.0" />
                 </font>
