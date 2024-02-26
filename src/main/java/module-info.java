@@ -12,4 +12,6 @@ module utc.mx.ecuacionesdiferenciales {
 
     opens utc.mx.ecuacionesdiferenciales to javafx.fxml;
     exports utc.mx.ecuacionesdiferenciales;
+    exports utc.mx.ecuacionesdiferenciales.Controllers;
+    opens utc.mx.ecuacionesdiferenciales.Controllers to javafx.fxml;
 }
