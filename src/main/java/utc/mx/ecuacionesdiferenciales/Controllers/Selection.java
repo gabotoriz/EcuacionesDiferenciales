@@ -7,7 +7,7 @@ import javafx.fxml.Initializable;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class SelectionController implements Initializable {
+public class Selection implements Initializable {
     @FXML
     private MFXButton MFXbtn_Teoria;
     @FXML
@@ -18,6 +18,11 @@ public class SelectionController implements Initializable {
     private MFXButton MFXbtn_Cuestionario;
     @FXML
     private MFXButton MFXbtn_Salir;
+
+
+
+
+
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
