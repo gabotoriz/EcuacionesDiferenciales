@@ -19,11 +19,6 @@ public class SelectionController implements Initializable {
     @FXML
     private MFXButton MFXbtn_Salir;
 
-
-
-
-
-
     @Override
     public void initialize(URL location, ResourceBundle resources) {
     }
